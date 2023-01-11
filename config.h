@@ -5,11 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono:pixelsize=18";
+static char *font = "JetBrainsMonoNerdFont:pixelsize=18";
 static char *font2[] = { "mono:pixelsize=18:antialias=true:autohint=true",
                          "serif:pixelsize=18:antialias=true:autohint=true",
                          "JoyPixels:pixelsize=16",
-                         "Symbols Nerd Font:pixelsize=18",
                          "Noto Sans CJK JP:pixelsize=18", 
                          "Noto Sans CJK KR:pixelsize=18",
                          "Noto Sans CJK TC:pixelsize=18",
@@ -133,7 +132,7 @@ static const char *colorname[] = {
 	"#a89984",
 	"#928374",
 	"#fb4934",
-	 "#b8bb26",
+	"#b8bb26",
 	"#fabd2f",
 	"#83a598",
 	"#d3869b",
